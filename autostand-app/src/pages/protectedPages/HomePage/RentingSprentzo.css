@@ -1,0 +1,14 @@
+.Renting-with-Sprentzo-Grids{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Renting-with-Sprentzo-Main-Grid-first{
+    display: flex;
+
+}
+
+.Renting-with-Sprentzo-Main-Grid-second{
+    display: flex;
+}
