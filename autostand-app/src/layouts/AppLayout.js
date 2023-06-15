@@ -15,6 +15,7 @@ export default function Layout() {
           margin: "auto",
           display: "flex",
           flexDirection: "column",
+          overflow:"hidden scroll"
         }}
       >
         <Header />

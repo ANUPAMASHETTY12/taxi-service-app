@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <>
-      <div style={{ height: 60, background: "#fff", display: "flex", columnGap: 10 , alignItems:"center", boxShadow: "rgba(102, 95, 95, 0.37) 0px -3px 11px 2px"  }}>
+      <div style={{ position: "relative", height: 60, background: "#fff", display: "flex", columnGap: 10 , alignItems:"center", boxShadow: "rgba(102, 95, 95, 0.37) 0px -3px 11px 2px"  }}>
 
         <div className="Home" style={{ width: 100,display: "flex", flexDirection: "column" , alignItems: "center" , justifyContent: "center"}}>
           <div className="Menu-icon" style={{ margin: 7 }}>

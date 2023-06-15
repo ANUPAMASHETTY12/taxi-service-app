@@ -1,14 +1,16 @@
 import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Layout from "./layouts/AppLayout";
-
+// import RentingWithSprentzo from "./pages/protectedPages/HomePage/RentingSprentzo";
+// import TrendingNow from "./pages/protectedPages/HomePage/TrendingNow";
+import IntegratedComponents from './pages/protectedPages/HomePage/Integrated'
 
 export default function App() {
   return (
-    <div>
+    <div className="Main-content" >
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route index element={<IntegratedComponents/>} />
           <Route path="about" element={<About />} />
           <Route path="dashboard" element={<Dashboard />} />
 
@@ -26,7 +28,8 @@ export default function App() {
 function Home() {
   return (
     <div>
-      <h2>Home</h2>
+     
+     {/* <RentingWithSprentzo/> */}
     </div>
   );
 }

@@ -1,8 +1,21 @@
 .Renting-with-Sprentzo-Grids{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
 
 }
+
+.Renting-with-Sprentzo-Title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.7px;
+    color: rgb(51,51,51);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 
 .Renting-with-Sprentzo-Main-Grid-first{
     display: flex;
@@ -11,4 +24,22 @@
 
 .Renting-with-Sprentzo-Main-Grid-second{
     display: flex;
+}
+
+.Renting-Grid-tagline{
+    color:rgb(153,153,153);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.Renting-with-Sprentzo-Sub-Grid{
+    width: 145px;
+    height: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(244,245,246);
+    margin: 5px;
 }
